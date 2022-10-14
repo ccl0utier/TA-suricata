@@ -18,7 +18,7 @@ The **Suricata Add-on for Splunk** collects the following data using file inputs
 
 ### Source types for the Suricata Add-on for Splunk
 
-The **Suricata Add-on for Splunk** provides index-time, search-time and CIM normalization for Suricata authentication, firewall, ids and other operational data in the following formats:
+The **Suricata Add-on for Splunk** provides index-time, search-time and CIM normalization for Suricata IDS, HTTO, DNS, SSL/TLS and other operational data in the following formats:
 
 | Source Type        | Suricata Event Type | Description                       | CIM Data Models      |
 |--------------------|---------------------|-----------------------------------|----------------------|
