@@ -10,7 +10,9 @@
 | Vendor Products       | Suricata 5.0+                                           |
 | Visible in Splunk Web | No.                                                     |
 
-The **Suricata Add-on for Splunk** collects operational log data from the Suricata IDS. You can install the Add-on on a forwarder to send data from Suricata to a Splunk Enterprise indexer or group of indexers. You can also use the add-on to provide data for other apps, such as Splunk Enterprise Security.  Sending EVE formatted log data through SYSLOG is currently untested, but I plan to add support for it shortly.
+The **Suricata Add-on for Splunk** collects operational log data from the Suricata IDS. You can install the Add-on on a forwarder to send data from Suricata to a Splunk Enterprise indexer or group of indexers. You can also use the add-on to provide data for other apps, such as Splunk Enterprise Security.  
+
+Sending EVE formatted log data through SYSLOG is currently untested, but I plan to add support for it shortly.
 
 The **Suricata Add-on for Splunk** collects the following data using file inputs:
 
