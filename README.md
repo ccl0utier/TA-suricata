@@ -116,22 +116,6 @@ index = ids
 ```
 > Note: This works for all input stanzas, i.e. `monitor` inputs.
 
-### Enable the TCP input for Vulnerability Scan Data
-
-Use the provided input stanza to enable the TCP input on your indexers by deploying the **configured** stanza to your indexers.
-
-Alternatively, configure the UDP input using Splunk Web on your indexers:
-
-1. Log into Splunk Web on your indexer (or Heavy Forwarder) node.
-2. Navigate to **Settings** > **Data inputs**.
-3. Click **+ Add New** next to **UDP**.
-4. Enter the desired UDP port in the "Port" field (suggested: `5514`).
-5. Optionally, enter allowed Suricata hosts as the value for "Only accept connection from".
-6. Click **Next**.
-7. Set the **Source type** as `Suricata`.
-8. Optionally, select your preferred index instead of `Default`.
-9. Review and save your UDP Input configuration.
-
 ### Enable sending log data from Suricata.
 
 In order for Suricata to send its logs to Splunk, perform the following:
