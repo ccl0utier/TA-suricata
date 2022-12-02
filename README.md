@@ -144,8 +144,14 @@ For troubleshooting tips that you can apply to all add-ons, see [Troubleshoot ad
 
 ## Credits, References & Notes
 
-This add-on was loosely based on the original Add-on published on Splunkbase [here](https://splunkbase.splunk.com/app/2760).
+This add-on was loosely based on the original Add-on published by Anthony Tellez on Splunkbase [here](https://splunkbase.splunk.com/app/2760).
 
- "Suricata" is a trademark*SURICATA* is a trademark of Open Information Security Foundation Inc. and they are in no way affiliated with this work.  Any rights, title and interest in these trademarks remains solely with them.
+High-level changes:
+
+- Update the `suricata_eve_tls` event type to be more restrictive
+- Reworked the DNS, TLS and Web field extractions and CIM normalization for better compliance
+- Added lookups for DNS RR Types and HTTP Statuses
+
+ "Suricata" is a trademark is a trademark of Open Information Security Foundation Inc. and they are in no way affiliated with this work.  Any rights, title and interest in these trademarks remains solely with them.
 
 > Author: Christian Cloutier <ccloutier@splunk.com>
