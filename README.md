@@ -6,7 +6,7 @@
 
 |                       |                                                         |
 |-----------------------|---------------------------------------------------------|
-| Version               | 1.0.0                                                   |
+| Version               | 1.0.1                                                   |
 | Vendor Products       | Suricata 5.0+                                           |
 | Visible in Splunk Web | No.                                                     |
 
